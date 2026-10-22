@@ -1,0 +1,80 @@
+{
+  "title": "Chromatic",
+  "config": {
+    "step": {
+      "user": {
+        "title": "Chromatic",
+        "description": "Configure your player and lights in the Chromatic panel. [Open Chromatic](/chromatic)."
+      }
+    },
+    "error": {
+      "invalid_selection": "Select an existing player, color lights and a valid non-conflicting group.",
+      "invalid_settings": "Check ranges, brightness limits and light ownership."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Chromatic",
+        "description": "Configure your player and lights in the Chromatic panel. [Open Chromatic](/chromatic)."
+      }
+    },
+    "error": {
+      "invalid_selection": "Select an existing player, color lights and a valid non-conflicting group.",
+      "invalid_settings": "Check ranges, brightness limits and light ownership."
+    }
+  },
+  "selector": {
+    "choices": {
+      "options": {
+        "color_field": "Living gradient",
+        "static": "Static",
+        "subtle_drift": "Subtle Drift",
+        "palette_flow": "Palette Flow",
+        "spatial_flow": "Spatial Flow",
+        "auto": "Auto",
+        "hardware": "Hardware transition",
+        "software": "Software transition",
+        "disabled": "Disabled",
+        "decorative": "Decorative",
+        "main": "Main / functional",
+        "universal": "Universal"
+      }
+    }
+  },
+  "services": {
+    "set_enabled": {
+      "name": "Enable / disable",
+      "description": "Start or stop a Chromatic configuration.",
+      "fields": {
+        "entry_id": {
+          "name": "Configuration ID"
+        },
+        "enabled": {
+          "name": "Enabled"
+        }
+      }
+    },
+    "set_mode": {
+      "name": "Set mode",
+      "description": "Change the lighting mode.",
+      "fields": {
+        "entry_id": {
+          "name": "Configuration ID"
+        },
+        "mode": {
+          "name": "Lighting mode"
+        }
+      }
+    },
+    "reset_session": {
+      "name": "New session",
+      "description": "Restore owned lights and start a new session, including manually released lights.",
+      "fields": {
+        "entry_id": {
+          "name": "Configuration ID"
+        }
+      }
+    }
+  }
+}
