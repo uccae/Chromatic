@@ -1,0 +1,13 @@
+{
+  "domain": "chromatic",
+  "name": "Chromatic",
+  "codeowners": ["@uccae"],
+  "config_flow": true,
+  "dependencies": ["frontend", "http", "light", "media_player", "panel_custom", "websocket_api"],
+  "documentation": "https://github.com/uccae/Chromatic",
+  "integration_type": "service",
+  "iot_class": "local_push",
+  "issue_tracker": "https://github.com/uccae/Chromatic/issues",
+  "requirements": [],
+  "version": "0.1.1"
+}
